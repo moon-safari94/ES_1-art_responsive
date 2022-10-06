@@ -1,0 +1,62 @@
+body {
+    margin: 3em;
+}
+
+#scatola {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.postit {
+    width: 20%;
+    height: 35vh;
+    box-shadow: 5px 5px 8px 3px #666666;
+    line-height: 2;
+    margin-bottom: 3em;
+    margin-left: 3em;
+}
+
+.postit:hover {
+    transform:scale(1.4, 1.4);
+    z-index: 1;
+}
+
+h3, p {
+    font-family: Indie flower;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+
+h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    padding-left: 2em;
+}
+.giallo {
+    background-image: linear-gradient( rgb(241, 241, 187) 80%, rgba(190, 190, 149, 0.81));
+    transform: rotate(-5deg);
+}
+
+.verde {
+    background-image: linear-gradient(rgb(162, 215, 162) 80% , rgba(159, 192, 159, 0.743));
+    transform: rotate(5deg);
+}
+
+.viola {
+    background-image: linear-gradient( rgb(213, 196, 248) 80%, rgba(141, 127, 170, 0.825));
+    transform: rotate(-7deg);
+}
+
+.storto {
+    transform: rotate(10deg);
+    transform: translateY(-10);
+}
+
+
